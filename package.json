@@ -1,6 +1,6 @@
 {
   "name": "bp",
-  "version": "1.0.1",
+  "version": "0.0.2",
   "description": "boiler plate",
   "repository": "https://github.com/malyz01/bplate.git",
   "main": "server/index.js",
@@ -12,9 +12,8 @@
     "dev": "run-p dev:client dev:server",
     "dev:client": "webpack --watch",
     "dev:server": "nodemon server",
-    "start": "run-s build server",
+    "start": "node server",
     "build": "webpack",
-    "server": "node server",
     "test": "jest --watchAll"
   },
   "babel": {
@@ -46,7 +45,6 @@
     "@babel/plugin-transform-runtime": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.9.4",
-    "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^25.2.6",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.3",
