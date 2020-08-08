@@ -1,7 +1,7 @@
 import React from 'react'
 
 const index = () => {
-  return <div>Page 1</div>
+  return <div>Add content for page 1 here</div>
 }
 
 export default index
