@@ -1,7 +1,7 @@
 {
-  "name": "bp",
-  "version": "0.0.2",
-  "description": "boiler plate",
+  "name": "bp_mongoose",
+  "version": "0.0.3",
+  "description": "boiler plate for MERN stack",
   "repository": "https://github.com/malyz01/bplate.git",
   "main": "server/index.js",
   "author": "Malyz",
