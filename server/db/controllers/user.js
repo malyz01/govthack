@@ -8,8 +8,15 @@ async function registerUser(req, res, next) {
     res.status(200).json({ id, email })
   } catch (e) {
     console.error(e)
+    const errors = e.errors ? Object.keys(e.errors) : []
     // create your own custom error
-    res.status(400).json('Email already exist')
+    if (errors.length) {
+      const messages = errors.map((err) => e.errors[err].message)
+      return res.status(400).json(messages)
+    }
+    if (e.code && e.code === 11000)
+      return res.status(400).json('Email already taken')
+    res.status(400).json('Something went wrong, please try again later...')
   }
 }
 
