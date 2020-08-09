@@ -8,6 +8,9 @@ mongoose
     useCreateIndex: true,
     useUnifiedTopology: true
   })
+  .then(() => {
+    console.log('Database connected')
+  })
   .catch((error) => {
     console.error(error)
   })
