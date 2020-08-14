@@ -1,0 +1,46 @@
+{
+  "name": "Auckland",
+  "country": "New Zealand",
+  "iso2": "NZ",
+  "lat": "-36.866667",
+  "lng": "174.766667",
+  "population": "1377200",
+  "restaurants": "50",
+  "atm": [],
+  "taxiStandsDay": [],
+  "taxiStandsNight": [],
+  "citizenAdvice": [],
+  "libraries": [],
+  "trainStations": [],
+  "busStations": [],
+  "ferries": [],
+  "publicToilets": "20",
+  "parkings": "5",
+  "cafe": [
+    {
+      "name": "mojo cafe",
+      "lat": "-36.8523123",
+      "lng": "174.7655",
+      "img": "cafe"
+    },
+    {
+      "name": "starter cafe",
+      "lat": "-36.8523123",
+      "lng": "174.7655",
+      "img": "cafe"
+    },
+    {
+      "name": "mojo cafe",
+      "lat": "-36.8523123",
+      "lng": "174.7655"
+    },
+    {
+      "name": "mojo cafe",
+      "lat": "-36.8523123",
+      "lng": "174.7655"
+    }
+  ],
+  "cinemas": "4",
+  "shoppingCentres": "2",
+  "clubs": "6"
+}

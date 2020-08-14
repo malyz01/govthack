@@ -7,10 +7,15 @@ import cities from '../../json/cities.json'
 const geo = [-40.839618, 174.175857]
 
 const Landing = () => {
+  const [data, setData] = useState(cities.filter((c) => c.type === 'city'))
   const [selectedData, setSelectedData] = useState('')
 
   const handleSelect = (data) => {
     setSelectedData(data)
+  }
+
+  const handleFilter = (name) => {
+    setData(name)
   }
 
   return (
