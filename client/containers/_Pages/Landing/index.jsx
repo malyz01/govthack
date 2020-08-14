@@ -1,11 +1,15 @@
 import React from 'react'
-import Container from '../../components/Container'
+
+import Map from './Map'
+import cities from '../../json/cities.json'
+
+const geo = [-40.839618, 174.175857]
 
 const Landing = () => {
   return (
-    <Container>
-      <h1>Landing Page</h1>
-    </Container>
+    <div>
+      <Map geo={geo} data={cities} />
+    </div>
   )
 }
 
