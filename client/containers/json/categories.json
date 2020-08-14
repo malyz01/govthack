@@ -1,5 +1,17 @@
 [
-  {
-    "name": ""
-  }
+  "cafe",
+  "atm",
+  "restaurants",
+  "taxiStandsDay",
+  "taxiStandsNight",
+  "citizenAdvice",
+  "libraries",
+  "trainStations",
+  "busStations",
+  "ferries",
+  "publicToilets",
+  "parkings",
+  "cinemas",
+  "shoppingCentres",
+  "clubs"
 ]

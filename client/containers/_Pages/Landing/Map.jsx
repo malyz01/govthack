@@ -11,6 +11,10 @@ const Map = (props) => {
     zoom: 5
   })
 
+  const onClick = (view) => {
+    setView(view)
+  }
+
   return (
     <MapGl
       {...view}
@@ -18,9 +22,9 @@ const Map = (props) => {
       mapStyle="mapbox://styles/malyz01/ckdtmayxx0bww19p96a0yedr4"
       onViewportChange={setView}
     >
-      {data.map((d) => (
-        <Marker key={d.name} latitude={+d.lat} longitude={+d.lng}>
-          {props.children(d)}
+      {data.map((d, i) => (
+        <Marker key={i} latitude={+d.lat} longitude={+d.lng}>
+          {props.children(d, onClick)}
         </Marker>
       ))}
     </MapGl>
