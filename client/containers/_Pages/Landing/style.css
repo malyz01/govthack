@@ -13,6 +13,10 @@
   height: 100%;
 }
 
+.categoryList {
+  text-transform: capitalize;
+}
+
 .mapMarkIcon {
   cursor: pointer;
 }

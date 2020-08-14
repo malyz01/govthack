@@ -49,7 +49,9 @@ const Landing = () => {
             {selectedData}
             <ul>
               {Categories.map((c, i) => (
-                <li key={i}>{splitCamelCase(c)}</li>
+                <li className="categoryList" key={i}>
+                  {splitCamelCase(c)}
+                </li>
               ))}
             </ul>
           </div>
