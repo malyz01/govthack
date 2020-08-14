@@ -20,7 +20,7 @@ const Map = (props) => {
     >
       {data.map((d) => (
         <Marker key={d.name} latitude={+d.lat} longitude={+d.lng}>
-          @
+          {props.children(d)}
         </Marker>
       ))}
     </MapGl>
