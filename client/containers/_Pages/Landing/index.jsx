@@ -4,6 +4,7 @@ import { FlyToInterpolator } from 'react-map-gl'
 import './style.css'
 
 import Map from './Map'
+import { splitCamelCase } from '../../utils'
 import Data from '../../json/data.json'
 import Categories from '../../json/categories.json'
 
@@ -48,7 +49,7 @@ const Landing = () => {
             {selectedData}
             <ul>
               {Categories.map((c, i) => (
-                <li key={i}>{c}</li>
+                <li key={i}>{splitCamelCase(c)}</li>
               ))}
             </ul>
           </div>
