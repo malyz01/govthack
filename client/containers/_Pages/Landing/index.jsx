@@ -5,6 +5,7 @@ import './style.css'
 
 import Map from './Map'
 import { splitCamelCase } from '../../utils'
+import Category from './Category'
 import Data from '../../json/data.json'
 import Categories from '../../json/categories.json'
 
@@ -12,6 +13,7 @@ const geo = [-40.839618, 174.175857]
 
 const Landing = () => {
   const [data, setData] = useState(Data.filter((c) => c.type === 'city'))
+  const [filter, setFilter] = useState(Categories)
   const [selectedData, setSelectedData] = useState(null)
 
   const handleSelect = (data, onClick) => () => {
@@ -41,21 +43,26 @@ const Landing = () => {
     setData(Data)
   }
 
+  const handleOnChange = (name) => (e) => {
+    console.log(filter)
+    setData(Data.filter((c) => c.type === 'city' && c.type === name))
+  }
+
   return (
     <div className="landingContainer">
       <section className="contentContainer">
-        {selectedData && (
-          <div>
-            {selectedData}
-            <ul>
-              {Categories.map((c, i) => (
-                <li className="categoryList" key={i}>
-                  {splitCamelCase(c)}
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
+        {selectedData &&
+          Categories.map((c, i) => (
+            <div className="categoryContainer" key={i}>
+              <input
+                onChange={handleOnChange(c)}
+                checked={data.some((d) => d.type === c)}
+                type="checkbox"
+                name={c}
+              />
+              <Category category={splitCamelCase(c)} />
+            </div>
+          ))}
       </section>
 
       <section className="mapContainer">
