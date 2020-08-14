@@ -1,6 +1,6 @@
 const IN_PROD = process.env.NODE_ENV === 'production'
 !IN_PROD && require('dotenv').config()
-require('./config/mongoDB')
+// require('./config/mongoDB')
 
 const path = require('path')
 const express = require('express')
