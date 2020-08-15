@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Auckland",
+        "iso2": "NZ",
+        "lat": "-36.846695",
+        "lng": "174.763028",
+        "image": "atm.svg"
+      },
+      {
+        "name": "Auckland",
+        "iso2": "NZ",
+        "lat": "-36.849445",
+        "lng": "174.764424",
+        "image": "atm.svg"
+      },
+      {
+        "name": "Auckland",
+        "iso2": "NZ",
+        "lat": "-36.849187",
+        "lng": "174.765293",
+        "image": "atm.svg"
+      },
+      {
+        "name": "Auckland",
+        "iso2": "NZ",
+        "lat": "-36.849814",
+        "lng": "174.765046",
+        "image": "atm.svg"
+      },
+      {
+        "name": "Auckland",
+        "iso2": "NZ",
+        "lat": "-36.84823",
+        "lng": "174.765237",
+        "image": "atm.svg"
+      },
+      {
+        "name": "Auckland",
+        "iso2": "NZ",
+        "lat": "-36.848655",
+        "lng": "174.765527",
+        "image": "atm.svg"
+      },
+      {
+        "name": "Auckland",
+        "iso2": "NZ",
+        "lat": "-36.850211",
+        "lng": "174.762607",
+        "image": "atm.svg"
+      },
+      {
+        "name": "Auckland",
+        "iso2": "NZ",
+        "lat": "-36.850795",
+        "lng": "174.764688",
+        "image": "atm.svg"
+      },
+      {
+        "name": "Auckland",
+        "iso2": "NZ",
+        "lat": "-36.851018",
+        "lng": "174.764554",
+        "image": "atm.svg"
+      },
+      {
+        "name": "Auckland",
+        "iso2": "NZ",
+        "lat": "-36.852215",
+        "lng": "174.764122",
+        "image": "atm.svg"
+      }
+]
