@@ -1,0 +1,11 @@
+[    
+    {
+        "name": "Auckland",
+        "iso2": "NZ",
+        "lat": "-36.851737",
+        "lng": "174.765224",
+        "population": "1377200",
+        "type": "citizenAdvice",
+        "image": "citizen.svg"
+    }
+]
