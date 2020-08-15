@@ -2,6 +2,16 @@ export function splitCamelCase(str) {
   return str.replace(/([a-z])([A-Z])/g, '$1 $2')
 }
 
+export function getName(str) {
+  let display = splitCamelCase(str)
+  if (display.includes('taxi')) {
+    display = display.includes('Night')
+      ? 'Taxi Stands (night time only)'
+      : 'Taxi Stands'
+  }
+  return display
+}
+
 export function getCategories(city) {
   const facilities = city.facilities
   const categories = Object.keys(facilities)
