@@ -1,4 +1,6 @@
-{
+[
+  
+  {
     "name": "Auckland",
     "iso2": "NZ",
     "lat": "-36.840824",
@@ -357,4 +359,6 @@
     "population": "1377200",
     "type": "parkings",
     "image": "parking.svg"
-  },
+  }
+
+]
