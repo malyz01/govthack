@@ -3,8 +3,8 @@ import * as d3 from 'd3-ease'
 import { FlyToInterpolator } from 'react-map-gl'
 import './style.css'
 
-import Map from './Map'
-import Brand from './Brand'
+import Map from '../../../components/Map'
+import Brand from '../../../components/Brand'
 import Legend from './Legend'
 import Footer from './Footer'
 import * as util from '../../utils'
@@ -16,15 +16,13 @@ const geo = [-40.839618, 174.175857]
 const Landing = () => {
   const [data, setData] = useState(Data)
   const [input, setInput] = useState(Categories)
-  const [filter, setFilter] = useState([])
+  const [categFilter, setCategFilter] = useState([])
   const [selectedCity, setSelectedCity] = useState(null)
 
   useEffect(() => {
     if (selectedCity) {
-      const city = Data.filter((d) => d.name === selectedCity)[0]
-      const filtered = filter
-        .map((f) => (input[f] === false ? f : null))
-        .filter((x) => x !== null)
+      const city = Data.find((d) => d.name === selectedCity)
+      const filtered = categFilter.filter((c) => !input[c])
       const newData = util.filterCategories(city, filtered)
       setData(newData)
     }
@@ -34,10 +32,10 @@ const Landing = () => {
     setSelectedCity(data.name)
     if (Data.some((d) => d.name === data.name)) {
       const city = Data.filter((d) => d.name === data.name)[0]
-      handleZoom(data, onClick)
       const [newData, categoryList] = util.getCategories(city)
+      handleZoom(data, onClick)
       setData(newData)
-      setFilter(categoryList)
+      setCategFilter(categoryList)
       return
     }
     data.zoom = 18
@@ -57,7 +55,7 @@ const Landing = () => {
     })
   }
 
-  const handleFilter = (e) => {
+  const handleInput = (e) => {
     let val = e.target.value === 'true' ? true : false
     setInput({ ...input, [e.target.name]: !val })
   }
@@ -69,11 +67,11 @@ const Landing = () => {
         <h4 className="contentContainerDisplay">Categories</h4>
         {selectedCity && (
           <>
-            {filter.map((c) => (
+            {categFilter.map((c) => (
               <div className="sidebarList" key={c}>
                 <input
                   type="checkbox"
-                  onChange={handleFilter}
+                  onChange={handleInput}
                   value={input[c]}
                   name={c}
                   defaultChecked
@@ -97,7 +95,6 @@ const Landing = () => {
           {(data, onClick) => (
             <img
               className="mapMarkIcon"
-              width="20px"
               src={`/assets/images/${data.image}`}
               onClick={handleSelect(data, onClick)}
             />

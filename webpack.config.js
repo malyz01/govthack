@@ -1,5 +1,6 @@
 const path = require('path')
 const Dotenv = require('dotenv-webpack')
+const webpack = require('webpack')
 
 module.exports = {
   mode: 'development',
@@ -8,7 +9,15 @@ module.exports = {
     path: path.resolve('server', 'public'),
     filename: 'bundle.js'
   },
-  plugins: [new Dotenv()],
+  plugins: [
+    new Dotenv(),
+    new webpack.DefinePlugin({
+      'process.env': {
+        MAP_API: JSON.stringify(process.env.MAP_API),
+        MAP_STYLE: JSON.stringify(process.env.MAP_STYLE)
+      }
+    })
+  ],
   module: {
     rules: [
       {

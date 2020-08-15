@@ -1,6 +1,6 @@
 {
   "cafe": true,
-  "ATM": true,
+  "atm": true,
   "taxiStandsDay": true,
   "taxiStandsNight": true,
   "library": true,
