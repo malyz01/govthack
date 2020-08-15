@@ -5,7 +5,8 @@
 
 .contentContainer {
   padding: 1em;
-  min-width: 400px;
+  min-width: 200px;
+  background-color: #dddddd;
 }
 
 .mapContainer {
@@ -23,4 +24,20 @@
 
 .mapMarkIcon {
   cursor: pointer;
+}
+
+/** Sidebar Header Start**/
+
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 20px;
 }
