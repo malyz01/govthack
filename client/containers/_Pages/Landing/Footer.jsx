@@ -1,12 +1,13 @@
 import React from 'react'
 
 function Footer(){
+    const currentYear = new Date().getFullYear()
     return(
         <footer className="footer">
-            copyright
+             <p className="copyright">Copyright ⓒ {currentYear}</p>
             <div className="socials">
-            <img aria-label= 'Youtube link' src='../../server/public/assets/images/youtube.svg' />
-            <img aria-label= 'Github link' src='../../server/public/assets/images/github.svg' />
+            <img aria-label= 'Youtube link' src='./assets/images/youtube.svg' />
+            <img aria-label= 'Github link' src='./assets/images/github.svg' />
             </div>
         </footer>
     )
