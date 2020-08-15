@@ -8,6 +8,7 @@ import * as util from '../../utils'
 import Category from './Category'
 import Data from '../../json/Final.json'
 import Categories from '../../json/categories.json'
+import Brand from './Brand.jsx'
 
 const geo = [-40.839618, 174.175857]
 
@@ -48,6 +49,7 @@ const Landing = () => {
   return (
     <div className="landingContainer">
       <section className="contentContainer">
+      <Brand />
         Display
         {selectedCity &&
           filter.map((c) => (
