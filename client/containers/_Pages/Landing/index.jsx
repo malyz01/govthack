@@ -4,12 +4,13 @@ import { FlyToInterpolator } from 'react-map-gl'
 import './style.css'
 
 import Map from './Map'
-import * as util from '../../utils'
+import Brand from './Brand'
+import Legend from './Legend'
+import Footer from './Footer'
 import Category from './Category'
+import * as util from '../../utils'
 import Data from '../../json/Final.json'
 import Categories from '../../json/categories.json'
-import Brand from './Brand.jsx'
-import Footer from './Footer.jsx'
 
 const geo = [-40.839618, 174.175857]
 
@@ -80,6 +81,12 @@ const Landing = () => {
               <div>{util.splitCamelCase(c)}</div>
             </div>
           ))}
+
+        <div>
+          {Object.keys(Categories).map((c) => (
+            <Legend key={c} name={c} />
+          ))}
+        </div>
         <Footer />
       </section>
 
