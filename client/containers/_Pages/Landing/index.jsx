@@ -66,7 +66,7 @@ const Landing = () => {
     <div className="landingContainer">
       <section className="contentContainer">
         <Brand />
-        <h3 className="contentContainerDisplay">Categories</h3>
+        <h4 className="contentContainerDisplay">Categories</h4>
         {selectedCity && (
           <>
             {filter.map((c) => (
@@ -81,8 +81,6 @@ const Landing = () => {
                 <div>{util.getName(c)}</div>
               </div>
             ))}
-            <br />
-            <br />
             <div className="legendContainer">
               {Object.keys(Categories).map((c) => (
                 <Legend key={c} name={c} />
