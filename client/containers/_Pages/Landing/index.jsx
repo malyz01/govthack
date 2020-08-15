@@ -74,7 +74,6 @@ const Landing = () => {
                 name={c}
                 defaultChecked
               />
-              <div>{c}</div>
             </div>
           ))}
       </section>
