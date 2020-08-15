@@ -287,357 +287,358 @@
           "lat": "-36.852534",
           "lng": "174.764358",
           "image": "parking.svg"
-        } 
+        }
       ],
       "atm": [
         {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.846695",
-            "lng": "174.763028",
-            "image": "atm.svg"
-          },
-          {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.849445",
-            "lng": "174.764424",
-            "image": "atm.svg"
-          },
-          {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.849187",
-            "lng": "174.765293",
-            "image": "atm.svg"
-          },
-          {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.849814",
-            "lng": "174.765046",
-            "image": "atm.svg"
-          },
-          {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.84823",
-            "lng": "174.765237",
-            "image": "atm.svg"
-          },
-          {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.848655",
-            "lng": "174.765527",
-            "image": "atm.svg"
-          },
-          {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.850211",
-            "lng": "174.762607",
-            "image": "atm.svg"
-          },
-          {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.850795",
-            "lng": "174.764688",
-            "image": "atm.svg"
-          },
-          {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.851018",
-            "lng": "174.764554",
-            "image": "atm.svg"
-          },
-          {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.842387",
-            "lng": "174.763977",
-            "image": "atm.svg"
-          },
-          {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.843138",
-            "lng": "174.767221",
-            "image": "atm.svg"
-          },
-          {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.843933",
-            "lng": "174.766861",
-            "image": "atm.svg"
-          },
-          {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.844285",
-            "lng": "174.767589",
-            "image": "atm.svg"
-          },
-          {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.845213",
-            "lng": "174.766675",
-            "image": "atm.svg"
-          },
-          {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.844848",
-            "lng": "174.766342",
-            "image": "atm.svg"
-          },
-          {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.845753",
-            "lng": "174.766161",
-            "image": "atm.svg"
-          },
-          {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.845762",
-            "lng": "174.766461",
-            "image": "atm.svg"
-          },
-          {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.845928",
-            "lng": "174.765903",
-            "image": "atm.svg"
-          },
-          {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.845754",
-            "lng": "174.764421",
-            "image": "atm.svg"
-          },
-          {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.846235",
-            "lng": "174.766432",
-            "image": "atm.svg"
-          },
-          {
-            "name": "Auckland",
-            "iso2": "NZ",
-            "lat": "-36.847457",
-            "lng": "174.765926",
-            "image": "atm.svg"
-          }
-    ],
-    "publicToilets": [
-      {
-      "name": "Auckland",
-      "iso2": "NZ",
-      "lat": "-36.842014",
-      "lng": "174.762003",
-      "image": "toilet.svg"
-    },
-    {
-      "name": "Auckland",
-      "iso2": "NZ",
-      "lat": "-36.843294",
-      "lng": "174.760963",
-      "image": "toilet.svg"
-    },
-    {
-      "name": "Auckland",
-      "iso2": "NZ",
-      "lat": "-36.844152",
-      "lng": "174.766642",
-      "image": "toilet.svg"
-    },
-    {
-      "name": "Auckland",
-      "iso2": "NZ",
-      "lat": "-36.844821",
-      "lng": "174.760358",
-      "image": "toilet.svg"
-    },
-    {
-      "name": "Auckland",
-      "iso2": "NZ",
-      "lat": "-36.844752",
-      "lng": "174.758843",
-      "image": "toilet.svg"
-    },
-    {
-      "name": "Auckland",
-      "iso2": "NZ",
-      "lat": "-36.846927",
-      "lng": "174.765403",
-      "image": "toilet.svg"
-    },
-    {
-      "name": "Auckland",
-      "iso2": "NZ",
-      "lat": "-36.848571",
-      "lng": "174.766509",
-      "image": "toilet.svg"
-    },
-    {
-      "name": "Auckland",
-      "iso2": "NZ",
-      "lat": "-36.852121",
-      "lng": "174.767304",
-      "image": "toilet.svg"
-    },
-    {
-      "name": "Auckland",
-      "iso2": "NZ",
-      "lat": "-36.850665",
-      "lng": "174.763186",
-      "image": "toilet.svg"
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.846695",
+          "lng": "174.763028",
+          "image": "atm.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.849445",
+          "lng": "174.764424",
+          "image": "atm.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.849187",
+          "lng": "174.765293",
+          "image": "atm.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.849814",
+          "lng": "174.765046",
+          "image": "atm.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.84823",
+          "lng": "174.765237",
+          "image": "atm.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.848655",
+          "lng": "174.765527",
+          "image": "atm.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.850211",
+          "lng": "174.762607",
+          "image": "atm.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.850795",
+          "lng": "174.764688",
+          "image": "atm.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.851018",
+          "lng": "174.764554",
+          "image": "atm.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.842387",
+          "lng": "174.763977",
+          "image": "atm.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.843138",
+          "lng": "174.767221",
+          "image": "atm.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.843933",
+          "lng": "174.766861",
+          "image": "atm.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.844285",
+          "lng": "174.767589",
+          "image": "atm.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.845213",
+          "lng": "174.766675",
+          "image": "atm.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.844848",
+          "lng": "174.766342",
+          "image": "atm.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.845753",
+          "lng": "174.766161",
+          "image": "atm.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.845762",
+          "lng": "174.766461",
+          "image": "atm.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.845928",
+          "lng": "174.765903",
+          "image": "atm.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.845754",
+          "lng": "174.764421",
+          "image": "atm.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.846235",
+          "lng": "174.766432",
+          "image": "atm.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.847457",
+          "lng": "174.765926",
+          "image": "atm.svg"
+        }
+      ],
+      "publicToilets": [
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.842014",
+          "lng": "174.762003",
+          "image": "toilet.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.843294",
+          "lng": "174.760963",
+          "image": "toilet.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.844152",
+          "lng": "174.766642",
+          "image": "toilet.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.844821",
+          "lng": "174.760358",
+          "image": "toilet.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.844752",
+          "lng": "174.758843",
+          "image": "toilet.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.846927",
+          "lng": "174.765403",
+          "image": "toilet.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.848571",
+          "lng": "174.766509",
+          "image": "toilet.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.852121",
+          "lng": "174.767304",
+          "image": "toilet.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.850665",
+          "lng": "174.763186",
+          "image": "toilet.svg"
+        }
+      ],
+      "taxiStandsDay": [
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.842237",
+          "lng": "174.762895",
+          "image": "taxiday.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.846173",
+          "lng": "174.761421",
+          "image": "taxiday.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.848884",
+          "lng": "174.761352",
+          "image": "taxiday.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.848884",
+          "lng": "174.761352",
+          "image": "taxiday.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.850533",
+          "lng": "174.763685",
+          "image": "taxiday.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.847846",
+          "lng": "174.764608",
+          "image": "taxiday.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.849138",
+          "lng": "174.766932",
+          "image": "taxiday.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.854072",
+          "lng": "174.765235",
+          "image": "taxiday.svg"
+        }
+      ],
+      "taxiStandsNight": [
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.842237",
+          "lng": "174.762895",
+          "image": "taxinight.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.848506",
+          "lng": "174.756734",
+          "image": "taxinight.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.850648",
+          "lng": "174.764388",
+          "image": "taxinight.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.85303",
+          "lng": "174.763723",
+          "image": "taxinight.svg"
+        }
+      ],
+      "ferries": [
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.843043",
+          "lng": "174.767031",
+          "image": "ferry.svg"
+        }
+      ],
+      "postshops": [
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.847535",
+          "lng": "174.758675",
+          "image": "post.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.847627",
+          "lng": "174.764885",
+          "image": "post.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.851184",
+          "lng": "174.762889",
+          "image": "post.svg"
+        },
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.84505",
+          "lng": "174.767761",
+          "image": "post.svg"
+        }
+      ],
+      "libraries": [
+        {
+          "name": "Auckland",
+          "iso2": "NZ",
+          "lat": "-36.851737",
+          "lng": "174.765224",
+          "image": "citizen.svg"
+        }
+      ]
     }
-],
-"taxiStandsDay": [
-    {
-        "name": "Auckland",
-        "iso2": "NZ",
-        "lat": "-36.842237",
-        "lng": "174.762895",
-        "image": "taxiday.svg"
-    },
-    {
-        "name": "Auckland",
-        "iso2": "NZ",
-        "lat": "-36.846173",
-        "lng": "174.761421",
-        "image": "taxiday.svg"
-    },
-    {
-        "name": "Auckland",
-        "iso2": "NZ",
-        "lat": "-36.848884",
-        "lng": "174.761352",
-        "image": "taxiday.svg"
-    },
-    {
-        "name": "Auckland",
-        "iso2": "NZ",
-        "lat": "-36.848884",
-        "lng": "174.761352",
-        "image": "taxiday.svg"
-    },
-    {
-        "name": "Auckland",
-        "iso2": "NZ",
-        "lat": "-36.850533",
-        "lng": "174.763685",
-        "image": "taxiday.svg"
-    },
-    {
-        "name": "Auckland",
-        "iso2": "NZ",
-        "lat": "-36.847846",
-        "lng": "174.764608",
-        "image": "taxiday.svg"
-    },
-    {
-        "name": "Auckland",
-        "iso2": "NZ",
-        "lat": "-36.849138",
-        "lng": "174.766932",
-        "image": "taxiday.svg"
-    },
-    {
-        "name": "Auckland",
-        "iso2": "NZ",
-        "lat": "-36.854072",
-        "lng": "174.765235",
-        "image": "taxiday.svg"
-    }
-],
-"taxiStandsNight": [
-    {
-        "name": "Auckland",
-        "iso2": "NZ",
-        "lat": "-36.842237",
-        "lng": "174.762895",
-        "image": "taxinight.svg"
-    },
-    {
-        "name": "Auckland",
-        "iso2": "NZ",
-        "lat": "-36.848506",
-        "lng": "174.756734",
-        "image": "taxinight.svg"
-    },
-    {
-        "name": "Auckland",
-        "iso2": "NZ",
-        "lat": "-36.850648",
-        "lng": "174.764388",
-        "image": "taxinight.svg"
-    },
-    {
-        "name": "Auckland",
-        "iso2": "NZ",
-        "lat": "-36.85303",
-        "lng": "174.763723",
-        "image": "taxinight.svg"
-    }
-  ],
-  "ferries": [
-    {
-      "name": "Auckland",
-      "iso2": "NZ",
-      "lat": "-36.843043",
-      "lng": "174.767031",
-      "image": "ferry.svg"
-  }
-  ],
-"postshops": [
-  {
-  "name": "Auckland",
-  "iso2": "NZ",
-  "lat": "-36.847535",
-  "lng": "174.758675",
-  "image": "post.svg"
-},
-{
-  "name": "Auckland",
-  "iso2": "NZ",
-  "lat": "-36.847627",
-  "lng": "174.764885",
-  "image": "post.svg"
-},
-{
-  "name": "Auckland",
-  "iso2": "NZ",
-  "lat": "-36.851184",
-  "lng": "174.762889",
-  "image": "post.svg"
-},
-{
-  "name": "Auckland",
-  "iso2": "NZ",
-  "lat": "-36.84505",
-  "lng": "174.767761",
-  "image": "post.svg"
-}
-],
-"libraries": [    
-  {
-      "name": "Auckland",
-      "iso2": "NZ",
-      "lat": "-36.851737",
-      "lng": "174.765224",
-      "image": "citizen.svg"
   }
 ]
-}
-}]
