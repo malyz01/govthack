@@ -8,7 +8,8 @@
   position: relative;
   padding: 1em;
   min-width: 200px;
-  background-color: #dddddd;
+  background-color: #204051;
+  color: #F1A9A0;
 }
 
 .mapContainer {
@@ -22,6 +23,7 @@
 
 .categoryList {
   text-transform: capitalize;
+  color: #FFECDB;
 }
 
 .mapMarkIcon {
@@ -51,6 +53,7 @@
 .sidebarList {
   display: flex;
   margin: 10px;
+  color: #FFECDB;
 }
 
 input {
@@ -80,4 +83,4 @@ input {
   text-align: center;
 }
 
-/** Footer Start **/
+/** Footer End **/
