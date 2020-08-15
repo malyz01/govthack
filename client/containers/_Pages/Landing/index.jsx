@@ -65,7 +65,7 @@ const Landing = () => {
   return (
     <div className="landingContainer">
       <section className="contentContainer">
-      <Brand />
+        <Brand />
         <h3 className="contentContainerDisplay">Categories</h3>
         {selectedCity &&
           filter.map((c) => (
@@ -77,9 +77,10 @@ const Landing = () => {
                 name={c}
                 defaultChecked
               />
+              <div>{util.splitCamelCase(c)}</div>
             </div>
           ))}
-          <Footer />
+        <Footer />
       </section>
 
       <section className="mapContainer">
