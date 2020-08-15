@@ -3,7 +3,7 @@ import * as d3 from 'd3-ease'
 import { FlyToInterpolator } from 'react-map-gl'
 import './style.css'
 
-import Map from './Map'
+import Map from '../../../components/Map'
 import Brand from './Brand'
 import Legend from './Legend'
 import Footer from './Footer'
