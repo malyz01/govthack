@@ -4,6 +4,7 @@
 }
 
 .contentContainer {
+  position: relative;
   padding: 1em;
   min-width: 200px;
   background-color: #dddddd;
@@ -41,3 +42,28 @@
   border-radius: 100px;
   margin-bottom: 20px;
 }
+
+/** Sidebar Header End **/
+
+/** Sidebar List Start **/
+
+.sidebarList {
+  display: flex;
+  margin: 10px
+}
+
+.contentContainerDisplay {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/** Sidebar List End **/
+
+/** Footer Start **/
+
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+
+/** Footer Start **/
