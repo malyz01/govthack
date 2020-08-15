@@ -4,23 +4,27 @@ import { FlyToInterpolator } from 'react-map-gl'
 import './style.css'
 
 import Map from './Map'
-import { splitCamelCase } from '../../utils'
+import * as util from '../../utils'
 import Category from './Category'
-import Data from '../../json/data.json'
+import Data from '../../json/Final.json'
 import Categories from '../../json/categories.json'
 
 const geo = [-40.839618, 174.175857]
 
 const Landing = () => {
-  const [data, setData] = useState(Data.filter((c) => c.type === 'city'))
-  const [filter, setFilter] = useState(Categories)
-  const [selectedData, setSelectedData] = useState(null)
+  const [data, setData] = useState(Data)
+  const [filter, setFilter] = useState([])
+  const [selectedCity, setSelectedCity] = useState(null)
 
   const handleSelect = (data, onClick) => () => {
-    setSelectedData(data.name)
-    if (data.type === 'city') {
-      handleFilter(data.name)
-      return handleZoom(data, onClick)
+    setSelectedCity(data.name)
+    if (Data.some((d) => d.name === data.name)) {
+      const city = Data.filter((d) => d.name === data.name)[0]
+      handleZoom(data, onClick)
+      const [newData, categoryList] = util.getCategories(city)
+      setData(newData)
+      setFilter(categoryList)
+      return
     }
     data.zoom = 18
     handleZoom(data, onClick)
@@ -39,28 +43,17 @@ const Landing = () => {
     })
   }
 
-  const handleFilter = (name) => {
-    setData(Data)
-  }
-
-  const handleOnChange = (name) => (e) => {
-    console.log(filter)
-    setData(Data.filter((c) => c.type === 'city' && c.type === name))
-  }
+  const handleFilter = (on, filter) => {}
 
   return (
     <div className="landingContainer">
       <section className="contentContainer">
-        {selectedData &&
-          Categories.map((c, i) => (
-            <div className="categoryContainer" key={i}>
-              <input
-                onChange={handleOnChange(c)}
-                checked={data.some((d) => d.type === c)}
-                type="checkbox"
-                name={c}
-              />
-              <Category category={splitCamelCase(c)} />
+        Display
+        {selectedCity &&
+          filter.map((c) => (
+            <div style={{ display: 'flex' }} key={c}>
+              <input type="checkbox" name={c} />
+              <div>{c}</div>
             </div>
           ))}
       </section>
