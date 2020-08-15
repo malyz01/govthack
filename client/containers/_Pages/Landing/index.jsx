@@ -97,7 +97,6 @@ const Landing = () => {
           {(data, onClick) => (
             <img
               className="mapMarkIcon"
-              width="20px"
               src={`/assets/images/${data.image}`}
               onClick={handleSelect(data, onClick)}
             />

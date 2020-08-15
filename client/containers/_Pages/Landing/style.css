@@ -9,7 +9,7 @@
   padding: 1em;
   min-width: 200px;
   background-color: #204051;
-  color: #F1A9A0;
+  color: #f1a9a0;
 }
 
 .legendContainer {
@@ -38,11 +38,12 @@
 
 .categoryList {
   text-transform: capitalize;
-  color: #FFECDB;
+  color: #ffecdb;
 }
 
 .mapMarkIcon {
   cursor: pointer;
+  width: 20px;
 }
 
 /** Sidebar Header Start**/
@@ -68,7 +69,7 @@
 .sidebarList {
   display: flex;
   margin: 10px;
-  color: #FFECDB;
+  color: #ffecdb;
   text-transform: capitalize;
 }
 
