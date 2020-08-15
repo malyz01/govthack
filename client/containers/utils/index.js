@@ -20,5 +20,5 @@ export function filterCategories(city, filter) {
   for (const category of categories) {
     data.push(facilities[category])
   }
-  return [data.flat(), categories]
+  return data.flat()
 }

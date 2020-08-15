@@ -1,18 +1,18 @@
-[
-  "cafe",
-  "atm",
-  "restaurants",
-  "taxiStandsDay",
-  "taxiStandsNight",
-  "citizenAdvice",
-  "libraries",
-  "trainStations",
-  "busStations",
-  "ferries",
-  "publicToilets",
-  "parkings",
-  "cinemas",
-  "shoppingCentres",
-  "clubs",
-  "pedestrianCrossings"
-]
+{
+  "cafe": true,
+  "atm": true,
+  "restaurants": true,
+  "taxiStandsDay": true,
+  "taxiStandsNight": true,
+  "citizenAdvice": true,
+  "libraries": true,
+  "trainStations": true,
+  "busStations": true,
+  "ferries": true,
+  "publicToilets": true,
+  "parkings": true,
+  "cinemas": true,
+  "shoppingCentres": true,
+  "clubs": true,
+  "pedestrianCrossings": true
+}
