@@ -1,81 +1,360 @@
 {
     "name": "Auckland",
     "iso2": "NZ",
-    "lat": "-36.842014",
-    "lng": "174.762003",
+    "lat": "-36.840824",
+    "lng": "174.765171",
     "population": "1377200",
-    "type": "publicToilets",
-    "image": "toilet.svg"
+    "type": "parkings",
+    "image": "parking.svg"
   },
   {
     "name": "Auckland",
     "iso2": "NZ",
-    "lat": "-36.843294",
-    "lng": "174.760963",
+    "lat": "-36.842237",
+    "lng": "174.762895",
     "population": "1377200",
-    "type": "publicToilets",
-    "image": "toilet.svg"
+    "type": "parkings",
+    "image": "parking.svg"
   },
   {
     "name": "Auckland",
     "iso2": "NZ",
-    "lat": "-36.844152",
-    "lng": "174.766642",
+    "lat": "-36.84477",
+    "lng": "174.771623",
     "population": "1377200",
-    "type": "publicToilets",
-    "image": "toilet.svg"
+    "type": "parkings",
+    "image": "parking.svg"
   },
   {
     "name": "Auckland",
     "iso2": "NZ",
-    "lat": "-36.844821",
-    "lng": "174.760358",
+    "lat": "-36.844506",
+    "lng": "174.768083",
     "population": "1377200",
-    "type": "publicToilets",
-    "image": "toilet.svg"
+    "type": "parkings",
+    "image": "parking.svg"
   },
   {
     "name": "Auckland",
     "iso2": "NZ",
-    "lat": "-36.844752",
-    "lng": "174.758843",
+    "lat": "-36.847587",
+    "lng": "174.772256",
     "population": "1377200",
-    "type": "publicToilets",
-    "image": "toilet.svg"
+    "type": "parkings",
+    "image": "parking.svg"
   },
   {
     "name": "Auckland",
     "iso2": "NZ",
-    "lat": "-36.846927",
-    "lng": "174.765403",
+    "lat": "-36.847587",
+    "lng": "174.772256",
     "population": "1377200",
-    "type": "publicToilets",
-    "image": "toilet.svg"
+    "type": "parkings",
+    "image": "parking.svg"
   },
   {
     "name": "Auckland",
     "iso2": "NZ",
-    "lat": "-36.848571",
-    "lng": "174.766509",
+    "lat": "-36.843778",
+    "lng": "174.76409",
     "population": "1377200",
-    "type": "publicToilets",
-    "image": "toilet.svg"
+    "type": "parkings",
+    "image": "parking.svg"
   },
   {
     "name": "Auckland",
     "iso2": "NZ",
-    "lat": "-36.852121",
-    "lng": "174.767304",
+    "lat": "-36.844078",
+    "lng": "174.763011",
     "population": "1377200",
-    "type": "publicToilets",
-    "image": "toilet.svg"
+    "type": "parkings",
+    "image": "parking.svg"
   },
   {
     "name": "Auckland",
     "iso2": "NZ",
-    "lat": "-36.850665",
-    "lng": "174.763186",
+    "lat": "-36.84346",
+    "lng": "174.761626",
     "population": "1377200",
-    "type": "publicToilets",
-    "image": "toilet.svg"
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.844817",
+    "lng": "174.764291",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.845045",
+    "lng": "174.765241",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.846356",
+    "lng": "174.766442",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.845572",
+    "lng": "174.763597",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.843156",
+    "lng": "174.760448",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.846659",
+    "lng": "174.763482",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.846708",
+    "lng": "174.76375",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.846743",
+    "lng": "174.759307",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.847098",
+    "lng": "174.762217",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.847248",
+    "lng": "174.762115",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.847689",
+    "lng": "174.762692",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.847812",
+    "lng": "174.76284",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.84945",
+    "lng": "174.76481",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.849175",
+    "lng": "174.76481",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.8503",
+    "lng": "174.766473",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.850094",
+    "lng": "174.769209",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.851223",
+    "lng": "174.768817",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.851474",
+    "lng": "174.768718",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.853912",
+    "lng": "174.768632",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.854158",
+    "lng": "174.764502",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.855213",
+    "lng": "174.764852",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.855436",
+    "lng": "174.763169",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.855256",
+    "lng": "174.762386",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.853827",
+    "lng": "174.761839",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.853449",
+    "lng": "174.761882",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.852964",
+    "lng": "174.762638",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.851346",
+    "lng": "174.762104",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.851172",
+    "lng": "174.762388",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.851172",
+    "lng": "174.762388",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.852581",
+    "lng": "174.764199",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
+  },
+  {
+    "name": "Auckland",
+    "iso2": "NZ",
+    "lat": "-36.852534",
+    "lng": "174.764358",
+    "population": "1377200",
+    "type": "parkings",
+    "image": "parking.svg"
   },
