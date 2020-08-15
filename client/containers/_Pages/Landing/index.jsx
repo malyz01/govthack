@@ -50,7 +50,7 @@ const Landing = () => {
       latitude: +data.lat,
       width: '100%',
       height: '100vh',
-      zoom: data.zoom || 13,
+      zoom: data.zoom || 14.5,
       transitionDuration: 3000,
       transitionInterpolator: new FlyToInterpolator(),
       transitionEasing: d3.easeCubic
