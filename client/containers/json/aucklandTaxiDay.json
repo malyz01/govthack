@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Auckland",
+        "iso2": "NZ",
+        "lat": "-36.842237",
+        "lng": "174.762895",
+        "population": "1377200",
+        "type": "taxiStandsDay",
+        "image": "taxiday.svg"
+    },
+    {
+        "name": "Auckland",
+        "iso2": "NZ",
+        "lat": "-36.846173",
+        "lng": "174.761421",
+        "population": "1377200",
+        "type": "taxiStandsDay",
+        "image": "taxiday.svg"
+    },
+    {
+        "name": "Auckland",
+        "iso2": "NZ",
+        "lat": "-36.848884",
+        "lng": "174.761352",
+        "population": "1377200",
+        "type": "taxiStandsDay",
+        "image": "taxiday.svg"
+    },
+    {
+        "name": "Auckland",
+        "iso2": "NZ",
+        "lat": "-36.848884",
+        "lng": "174.761352",
+        "population": "1377200",
+        "type": "taxiStandsDay",
+        "image": "taxiday.svg"
+    },
+    {
+        "name": "Auckland",
+        "iso2": "NZ",
+        "lat": "-36.850533",
+        "lng": "174.763685",
+        "population": "1377200",
+        "type": "taxiStandsDay",
+        "image": "taxiday.svg"
+    },
+    {
+        "name": "Auckland",
+        "iso2": "NZ",
+        "lat": "-36.847846",
+        "lng": "174.764608",
+        "population": "1377200",
+        "type": "taxiStandsDay",
+        "image": "taxiday.svg"
+    },
+    {
+        "name": "Auckland",
+        "iso2": "NZ",
+        "lat": "-36.849138",
+        "lng": "174.766932",
+        "population": "1377200",
+        "type": "taxiStandsDay",
+        "image": "taxiday.svg"
+    },
+    {
+        "name": "Auckland",
+        "iso2": "NZ",
+        "lat": "-36.854072",
+        "lng": "174.765235",
+        "population": "1377200",
+        "type": "taxiStandsDay",
+        "image": "taxiday.svg"
+    }
+]
