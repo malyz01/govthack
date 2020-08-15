@@ -9,6 +9,7 @@ export function getName(str) {
       ? 'Taxi Stands (night time only)'
       : 'Taxi Stands'
   }
+  if (display.includes('atm')) display = display.toUpperCase()
   return display
 }
 
