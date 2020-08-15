@@ -7,7 +7,6 @@ import Map from './Map'
 import Brand from './Brand'
 import Legend from './Legend'
 import Footer from './Footer'
-import Category from './Category'
 import * as util from '../../utils'
 import Data from '../../json/Final.json'
 import Categories from '../../json/categories.json'
@@ -68,25 +67,30 @@ const Landing = () => {
       <section className="contentContainer">
         <Brand />
         <h3 className="contentContainerDisplay">Categories</h3>
-        {selectedCity &&
-          filter.map((c) => (
-            <div className="sidebarList" key={c}>
-              <input
-                type="checkbox"
-                onChange={handleFilter}
-                value={input[c]}
-                name={c}
-                defaultChecked
-              />
-              <div>{util.splitCamelCase(c)}</div>
+        {selectedCity && (
+          <>
+            {filter.map((c) => (
+              <div className="sidebarList" key={c}>
+                <input
+                  type="checkbox"
+                  onChange={handleFilter}
+                  value={input[c]}
+                  name={c}
+                  defaultChecked
+                />
+                <div>{util.getName(c)}</div>
+              </div>
+            ))}
+            <br />
+            <br />
+            <div className="legendContainer">
+              {Object.keys(Categories).map((c) => (
+                <Legend key={c} name={c} />
+              ))}
             </div>
-          ))}
+          </>
+        )}
 
-        <div>
-          {Object.keys(Categories).map((c) => (
-            <Legend key={c} name={c} />
-          ))}
-        </div>
         <Footer />
       </section>
 

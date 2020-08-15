@@ -7,7 +7,7 @@ const Legend = ({ name }) => {
   return (
     <section className="legend">
       <img className="legendImg" src={`/assets/images/${name}.svg`} />
-      <div>{util.splitCamelCase(name)}</div>
+      <div>{util.getName(name)}</div>
     </section>
   )
 }

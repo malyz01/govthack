@@ -10,6 +10,10 @@
   background-color: #dddddd;
 }
 
+.legendContainer {
+  margin-left: 10px;
+}
+
 .legend {
   display: flex;
   text-transform: capitalize;
@@ -17,7 +21,8 @@
 }
 
 .legendImg {
-  width: 0.8em;
+  width: 1em;
+  margin-right: 0.3em;
 }
 
 .mapContainer {
@@ -60,6 +65,7 @@
 .sidebarList {
   display: flex;
   margin: 10px;
+  text-transform: capitalize;
 }
 
 .contentContainerDisplay {
