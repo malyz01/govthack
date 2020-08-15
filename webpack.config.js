@@ -13,7 +13,8 @@ module.exports = {
     new Dotenv(),
     new webpack.DefinePlugin({
       'process.env': {
-        MAP_API: JSON.stringify(process.env.MAP_API)
+        MAP_API: JSON.stringify(process.env.MAP_API),
+        MAP_STYLE: JSON.stringify(process.env.MAP_STYLE)
       }
     })
   ],

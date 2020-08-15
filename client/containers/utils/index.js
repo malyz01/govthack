@@ -1,3 +1,6 @@
+const taxiNight = 'Taxi Stands (night time only)'
+const taxiDay = 'Taxi Stands'
+
 export function splitCamelCase(str) {
   return str.replace(/([a-z])([A-Z])/g, '$1 $2')
 }
@@ -5,9 +8,7 @@ export function splitCamelCase(str) {
 export function getName(str) {
   let display = splitCamelCase(str)
   if (display.includes('taxi')) {
-    display = display.includes('Night')
-      ? 'Taxi Stands (night time only)'
-      : 'Taxi Stands'
+    display = display.includes('Night') ? taxiNight : taxiDay
   }
   if (display.includes('atm')) display = display.toUpperCase()
   return display
