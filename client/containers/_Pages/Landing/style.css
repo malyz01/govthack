@@ -13,6 +13,14 @@
   height: 100%;
 }
 
+.categoryContainer {
+  display: flex;
+}
+
+.categoryList {
+  text-transform: capitalize;
+}
+
 .mapMarkIcon {
   cursor: pointer;
 }
