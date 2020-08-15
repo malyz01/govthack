@@ -4,8 +4,10 @@
 }
 
 .contentContainer {
+  position: relative;
   padding: 1em;
-  min-width: 400px;
+  min-width: 200px;
+  background-color: #dddddd;
 }
 
 .mapContainer {
@@ -24,3 +26,44 @@
 .mapMarkIcon {
   cursor: pointer;
 }
+
+/** Sidebar Header Start**/
+
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+/** Sidebar Header End **/
+
+/** Sidebar List Start **/
+
+.sidebarList {
+  display: flex;
+  margin: 10px
+}
+
+.contentContainerDisplay {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/** Sidebar List End **/
+
+/** Footer Start **/
+
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+
+/** Footer Start **/

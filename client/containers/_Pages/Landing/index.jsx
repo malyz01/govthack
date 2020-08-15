@@ -8,6 +8,8 @@ import * as util from '../../utils'
 import Category from './Category'
 import Data from '../../json/Final.json'
 import Categories from '../../json/categories.json'
+import Brand from './Brand.jsx'
+import Footer from './Footer.jsx'
 
 const geo = [-40.839618, 174.175857]
 
@@ -63,10 +65,11 @@ const Landing = () => {
   return (
     <div className="landingContainer">
       <section className="contentContainer">
-        Display
+      <Brand />
+        <h3 className="contentContainerDisplay">Categories</h3>
         {selectedCity &&
           filter.map((c) => (
-            <div style={{ display: 'flex' }} key={c}>
+            <div className="sidebarList" key={c}>
               <input
                 type="checkbox"
                 onChange={handleFilter}
@@ -76,6 +79,7 @@ const Landing = () => {
               />
             </div>
           ))}
+          <Footer />
       </section>
 
       <section className="mapContainer">

@@ -3,7 +3,9 @@ import './style.css'
 
 class Category extends React.Component {
   render() {
-    return <div className="categoryList">{this.props.category}</div>
+    return <div className="categoryList">
+          {this.props.category}
+        </div>
   }
 }
 
