@@ -4,7 +4,7 @@ import { FlyToInterpolator } from 'react-map-gl'
 import './style.css'
 
 import Map from '../../../components/Map'
-import Brand from './Brand'
+import Brand from '../../../components/Brand'
 import Legend from './Legend'
 import Footer from './Footer'
 import * as util from '../../utils'
