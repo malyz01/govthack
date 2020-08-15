@@ -52,11 +52,12 @@ const Landing = () => {
         {selectedCity &&
           filter.map((c) => (
             <div style={{ display: 'flex' }} key={c}>
-              <input type="checkbox" name={c} />
+              <input type="checkbox" name={c} defaultChecked value="true"/>
               <div>{c}</div>
             </div>
           ))}
       </section>
+          
 
       <section className="mapContainer">
         <Map geo={geo} data={data}>
