@@ -7,19 +7,21 @@
 .contentContainer {
   position: relative;
   padding: 1em;
-  min-width: 200px;
+  min-width: 260px;
   background-color: #204051;
   color: #f1a9a0;
 }
 
 .legendContainer {
   margin-left: 10px;
+  margin-top: 10px;
 }
 
 .legend {
   display: flex;
   text-transform: capitalize;
-  font-size: 0.8em;
+  font-size: 0.9em;
+  color: #FFECDB;
 }
 
 .legendImg {
@@ -59,7 +61,6 @@
   width: 150px;
   height: 150px;
   border-radius: 100px;
-  margin-bottom: 20px;
 }
 
 /** Sidebar Header End **/
@@ -68,7 +69,6 @@
 
 .sidebarList {
   display: flex;
-  margin: 10px;
   color: #ffecdb;
   text-transform: capitalize;
 }
@@ -78,8 +78,9 @@ input {
 }
 
 .contentContainerDisplay {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 /** Sidebar List End **/
