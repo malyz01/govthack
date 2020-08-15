@@ -19,7 +19,7 @@ const Map = (props) => {
     <MapGl
       {...view}
       mapboxApiAccessToken={process.env.MAP_API}
-      mapStyle="mapbox://styles/malyz01/ckdtmayxx0bww19p96a0yedr4"
+      mapStyle={process.env.MAP_STYLE}
       onViewportChange={setView}
     >
       {data.map((d, i) => (
