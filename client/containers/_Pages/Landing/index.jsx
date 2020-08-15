@@ -26,7 +26,7 @@ const Landing = () => {
       const newData = util.filterCategories(city, filtered)
       setData(newData)
     }
-  }, [input])
+  }, [selectedCity, input])
 
   const handleSelect = (data, onClick) => () => {
     setSelectedCity(data.name)
@@ -74,7 +74,6 @@ const Landing = () => {
                   onChange={handleInput}
                   value={input[c]}
                   name={c}
-                  defaultChecked
                 />
                 <div>{util.getName(c)}</div>
               </div>

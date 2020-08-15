@@ -1,11 +1,10 @@
 {
-  "cafe": true,
-  "atm": true,
-  "taxiStandsDay": true,
-  "taxiStandsNight": true,
-  "library": true,
-  "ferry": true,
-  "publicToilet": true,
-  "carPark": true,
-  "postOffice": true
+  "carPark": false,
+  "atm": false,
+  "publicToilet": false,
+  "taxiStandsDay": false,
+  "taxiStandsNight": false,
+  "ferry": false,
+  "postOffice": false,
+  "library": false
 }
