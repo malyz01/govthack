@@ -1,6 +1,7 @@
 .landingContainer {
   display: flex;
   height: 100vh;
+  font-family: 'Poppins', sans-serif;
 }
 
 .contentContainer {
@@ -49,7 +50,11 @@
 
 .sidebarList {
   display: flex;
-  margin: 10px
+  margin: 10px;
+}
+
+input {
+  margin: 7px 5px 3px 3px;
 }
 
 .contentContainerDisplay {
@@ -63,7 +68,16 @@
 
 .footer {
   position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
   bottom: 0;
+}
+
+.copyright {
+  text-align: center;
 }
 
 /** Footer Start **/
