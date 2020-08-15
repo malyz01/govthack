@@ -14,5 +14,6 @@
   "cinemas": true,
   "shoppingCentres": true,
   "clubs": true,
-  "pedestrianCrossings": true
+  "pedestrianCrossings": true,
+  "postshops": true
 }
