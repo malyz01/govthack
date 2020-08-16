@@ -28,8 +28,8 @@ const Landing = () => {
   }, [selectedCity, input])
 
   const handleSelect = (data, onClick) => () => {
-    setSelectedCity(data.name)
     if (Data.some((d) => d.name === data.name)) {
+      setSelectedCity(data.name)
       const city = Data.filter((d) => d.name === data.name)[0]
       const [newData, categoryList] = util.getCategories(city)
       handleZoom(data, onClick)
