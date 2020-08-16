@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import MapGl, { Marker } from 'react-map-gl'
+import MapGl, { Marker, NavigationControl } from 'react-map-gl'
 
 const Map = (props) => {
   const { geo, data } = props
@@ -22,6 +22,9 @@ const Map = (props) => {
       mapStyle={process.env.MAP_STYLE}
       onViewportChange={setView}
     >
+      <div style={{ position: 'absolute', right: 0, bottom: 25 }}>
+        <NavigationControl showCompass={false} />
+      </div>
       {data.map((d, i) => (
         <Marker key={i} latitude={+d.lat} longitude={+d.lng}>
           {props.children(d, onClick)}
