@@ -7,7 +7,9 @@ function Footer() {
     <footer className="footer">
       <p className="copyright">Copyright ⓒ {currentYear}</p>
       <div className="socials">
-        <a href="#">
+        <a
+          href={`https://www.youtube.com/watch?v=spJVgLR4U9s&feature=youtu.be`}
+        >
           <img
             className="footerImage"
             aria-label="Youtube link"
