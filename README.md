@@ -1,7 +1,7 @@
 # AccessMap
 ![Logo](https://res.cloudinary.com/malyz/image/upload/v1597546135/logo.png)
 
-## Members
+## Contributors
 
 <div>
 <img height="150px" src="https://res.cloudinary.com/malyz/image/upload/v1597548971/Pic/Ali.jpg"></img>
@@ -47,14 +47,6 @@ includes:
 - Citizen Advice Bureau
 - Libraries
 - Ferries
-
-Contributors:
-- Chris Kirby
-- Matt Uy
-- Ali Vandaei
-- Jennifer Yeoh
-- Saeid Toufani Asl
-- Ariel Walker-Cochrane
 
 ## Built with:
 
