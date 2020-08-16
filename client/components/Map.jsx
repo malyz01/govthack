@@ -8,7 +8,7 @@ const Map = (props) => {
     latitude: geo[0],
     width: '100%',
     height: '100vh',
-    zoom: 5
+    zoom: 3.8
   })
 
   const onClick = (view) => {

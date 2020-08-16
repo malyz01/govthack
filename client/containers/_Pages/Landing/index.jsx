@@ -10,7 +10,7 @@ import * as util from '../../utils'
 import Data from '../../json/Final.json'
 import Categories from '../../json/categories.json'
 
-const geo = [-40.839618, 174.175857]
+const geo = [-30.970222, 147.773966]
 
 const Landing = () => {
   const [data, setData] = useState(Data)
