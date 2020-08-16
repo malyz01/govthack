@@ -1,6 +1,34 @@
 # AccessMap
 ![Logo](https://res.cloudinary.com/malyz/image/upload/v1597546135/logo.png)
 
+## Members
+
+<div>
+<img height="150px" src="https://res.cloudinary.com/malyz/image/upload/v1597548971/Pic/Ali.jpg"></img>
+Ali Vandaei
+</div>
+<div>
+<img height="150px" src="https://res.cloudinary.com/malyz/image/upload/v1597548971/Pic/Saeid_Toufani_Asl.png"></img>
+Saeid Toufani Asl
+</div>
+<div>
+<img height="150px" src="https://res.cloudinary.com/malyz/image/upload/v1597548970/Pic/Jennifer_Yeoh.jpg"></img>
+Jennifer Yeoh
+</div>
+<div>
+<img height="150px" src="https://res.cloudinary.com/malyz/image/upload/v1597548970/Pic/Ariel_Walker-Cochrane.jpg"></img>
+Ariel Walker-Cochrane
+</div>
+<div>
+<img height="150px" src="https://res.cloudinary.com/malyz/image/upload/v1597548970/Pic/Chris_Kirby.jpg"></img>
+Chris Kirby
+</div>
+<div>
+<img height="150px" src="https://res.cloudinary.com/malyz/image/upload/v1597548969/Pic/Matt_Uy.jpg"></img>
+Matt Uy
+</div>
+
+
 ## User Story
 
 Jake wants to go catch a train from Ellerslie to Auckland CBD for a fun night out with his friends. 
@@ -8,7 +36,6 @@ However, like many other disabled New Zealanders, Jake finds that the preparatio
 This is because he would have to consider many different factors including how near public toilets are to him when he arrives in Auckland CBD.
 
 Let’s go back to Jack who has recently discovered AccessMap. By opening AccessMap on his smartphone Jake is not only able to visualise his journey to the CBD, but also can better understand what are some of the facilities which are well suited to his needs. He can now make his way to the CBD with a sense of comfort.
-
 
 An app for showing wheel-chair access facilities in central Auckland:
 includes:
