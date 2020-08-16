@@ -3,31 +3,7 @@
 
 ## Contributors
 
-<div>
-<img height="150px" src="https://res.cloudinary.com/malyz/image/upload/v1597548971/Pic/Ali.jpg"></img>
-Ali Vandaei
-</div>
-<div>
-<img height="150px" src="https://res.cloudinary.com/malyz/image/upload/v1597548971/Pic/Saeid_Toufani_Asl.png"></img>
-Saeid Toufani Asl
-</div>
-<div>
-<img height="150px" src="https://res.cloudinary.com/malyz/image/upload/v1597548970/Pic/Jennifer_Yeoh.jpg"></img>
-Jennifer Yeoh
-</div>
-<div>
-<img height="150px" src="https://res.cloudinary.com/malyz/image/upload/v1597548970/Pic/Ariel_Walker-Cochrane.jpg"></img>
-Ariel Walker-Cochrane
-</div>
-<div>
-<img height="150px" src="https://res.cloudinary.com/malyz/image/upload/v1597548970/Pic/Chris_Kirby.jpg"></img>
-Chris Kirby
-</div>
-<div>
-<img height="150px" src="https://res.cloudinary.com/malyz/image/upload/v1597548969/Pic/Matt_Uy.jpg"></img>
-Matt Uy
-</div>
-
+![Logo](https://res.cloudinary.com/malyz/image/upload/v1597550906/Pic/Screen_Shot_2020-08-16_at_4.05.38_PM_2.png)
 
 ## User Story
 
