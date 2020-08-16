@@ -43,7 +43,7 @@ If you'd like to clone our repo, you will need to do the following:
 1. Create a mapbox account and generate an API Key at mapbox.com
 2. Create an .env file
 3. Insert the following variables;
-      MAP_API=*YOUR_API_KEY_HERE*
-      MAP_STYLE=*url generated in mapbox.com*
+      - MAP_API=*YOUR_API_KEY_HERE*
+      - MAP_STYLE=*url generated in mapbox.com*
 4. run npm install
 5. execute npm run dev
