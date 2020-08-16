@@ -5,7 +5,6 @@ import './style.css'
 
 import Map from '../../../components/Map'
 import Brand from '../../../components/Brand'
-import Legend from './Legend'
 import Footer from './Footer'
 import * as util from '../../utils'
 import Data from '../../json/Final.json'
@@ -75,14 +74,14 @@ const Landing = () => {
                   value={input[c]}
                   name={c}
                 />
+                <img
+                  className="iconContent"
+                  src={`/assets/images/${c}.svg`}
+                  alt=""
+                />
                 <div>{util.getName(c)}</div>
               </div>
             ))}
-            <div className="legendContainer">
-              {Object.keys(Categories).map((c) => (
-                <Legend key={c} name={c} />
-              ))}
-            </div>
           </>
         )}
 
