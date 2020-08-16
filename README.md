@@ -1,6 +1,6 @@
-### AccessMap
+# AccessMap
 
-# User Story
+## User Story
 
 Jake wants to go catch a train from Ellerslie to Auckland CBD for a fun night out with his friends. 
 However, like many other disabled New Zealanders, Jake finds that the preparation for this kind of event is often “complicated, unpredictable, expensive, and time-consuming” 
@@ -28,7 +28,7 @@ Contributors:
 - Saeid Toufani Asl
 - Ariel Walker-Cochrane
 
-Built with:
+## Built with:
 
 ### React
 ### Redux(not currently used, for future updates)
