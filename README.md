@@ -1,4 +1,5 @@
 # AccessMap
+![Logo](https://res.cloudinary.com/malyz/image/upload/v1597546135/logo.png)
 
 ## User Story
 
