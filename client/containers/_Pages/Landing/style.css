@@ -7,9 +7,14 @@
 .contentContainer {
   position: relative;
   padding: 1em;
-  min-width: 260px;
+  min-width: 280px;
   background-color: #204051;
   color: #f1a9a0;
+}
+
+.iconContent {
+  width: 15px;
+  margin-left: 2px;
 }
 
 .legendContainer {
@@ -21,7 +26,7 @@
   display: flex;
   text-transform: capitalize;
   font-size: 0.9em;
-  color: #FFECDB;
+  color: #ffecdb;
 }
 
 .legendImg {
